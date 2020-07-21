@@ -1,0 +1,40 @@
+#recommend-cars-input {
+    width: 750px;
+    padding-top: 15px;
+}
+
+.recommend-cars-field {
+    display: block;
+}
+
+.recommend-cars-field label {
+    position: absolute;
+}
+
+.recommend-cars-field input {
+    margin-left: 375px;
+}
+
+#recommend-cars-submit {
+    height: 30px;
+    width: 522px;
+    margin-top: 3px;
+}
+
+.recommended-car {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: cadetblue;
+    width: 750px;
+    float: left;
+}
+
+.recommended-car:hover {
+    background-color: #0086a8;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    z-index: 3000;
+}

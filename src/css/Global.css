@@ -1,0 +1,14 @@
+.button {
+    border: 0;
+    background-color: #0086a8;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+
+.car-data-label {
+    display: block;
+}

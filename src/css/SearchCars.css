@@ -1,0 +1,52 @@
+#search-cars {
+    padding-top: 15px;
+}
+
+#search-cars-input {
+    width: 450px;
+    position: absolute;
+}
+
+#found-cars {
+    width: 800px;
+    margin-left: 425px;
+}
+
+#search-cars-submit {
+    display: block;
+    width: 399px;
+    margin-right: 25px;
+    margin-top: 3px;
+    height: 30px;
+}
+
+#search-cars-input-labels {
+    padding-right: 25px;
+    width: 400px;
+}
+
+.search-cars-input-label {
+    padding-right: 5px;
+}
+
+#search-cars-input-year {
+    padding-left: 20px;
+}
+
+.found-car {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: cadetblue;
+    width: 240px;
+    float: left;
+}
+
+.found-car:hover {
+    background-color: #0086a8;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    z-index: 3000;
+}

@@ -1,0 +1,31 @@
+.add-car-field {
+    display: block;
+}
+
+#add-car-data {
+    margin-top: 15px;
+}
+
+.add-car-field input {
+    margin-left: 200px;
+}
+
+.add-car-field label {
+    position: absolute;
+}
+
+#add-car-submit {
+    width: 347px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#car-added-message {
+    font-weight: bold;
+    color: darkgreen;
+    transition: opacity 3s;
+}
+
+.hidden {
+    opacity: 0;
+}
